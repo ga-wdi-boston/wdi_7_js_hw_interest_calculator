@@ -9,7 +9,7 @@ r = parseFloat(r);
 r = r/100;
 n = parseFloat(n);
 
-fv = Math.pow((p * (1 + r)), n);
+fv = p * Math.pow((1 + r), n);
 fv = fv.toFixed(2);
 
 document.write("The Future Value of your investment is: $" + fv);
