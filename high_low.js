@@ -1,5 +1,5 @@
 var guess = 0, the_number = Math.floor((Math.random()*10)+1);
-do {
+while (guess !== the_number) {
   guess = prompt("Guess a number between 1 and 10:");
   if (guess > the_number) {
     console.log("Too high.");
@@ -12,4 +12,3 @@ do {
     break;
   }
 }
-while (guess !== the_number)
