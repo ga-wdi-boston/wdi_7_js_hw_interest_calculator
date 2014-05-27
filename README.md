@@ -1,21 +1,24 @@
-# Javascript Day 1 Homework
+# JavaScript Day 1 Homework
 
-Write a simple interest calculator for loans. Ask the user for the total amount borrowed, interest rate and number of years.
+This assignment consists of two distinct tasks:
 
-Also, write a simple 'game' that makes a user guess a number between 1 and 10. If they are incorrect, output if they are high or low. If they are correct, output that they are correct and end the game. 
+1. Write a simple interest calculator for loans. Ask the user for the amount borrowed, interest rate, and number of years, and output the amount of interest that will be paid.
 
-Put these in their respective javascript files.
+2. Write a JavaScript version of the [Guess the Number](https://github.com/ga-wdi-boston/wdi_1_ruby_hw_number_guess) game from Week 1. As before, the user should get three chances to guess a randomly-generated number between 1 and 10, getting a high/low hint if they guess incorrectly.
 
-### Reading
+## Grading
 
-Read your JavaScript: Definitive Guide chapters 1-3. The latter part of chapter 3 will cover things that we haven't covered in class and has a few tricky parts. Don't worry about getting all of those immediately. 
+* **(2)** Interest calculator functions as specified
+* **(2)** Interest calculator code has good style/naming and adheres to best practices
+* **(2)** Number-guess game functions as specified
+* **(2)** Number-guess game code has good style/naming and adheres to best practices
+* **(2)** Repository has clean, logical, single-task commits with descriptive messages
 
-### Watching
+## Required Viewing
 
-Watch [Douglas Crockford's JavaScript The Good Parts](http://www.youtube.com/watch?v=hQVTIJBZook) video. It is approximately one hour, but is massively beneficial to understanding JavaScript. 
+Watch Douglas Crockford's [JavaScript: The Good Parts](http://www.youtube.com/watch?v=hQVTIJBZook) talk. It is approximately one hour, but is massively beneficial to understanding JavaScript.
 
+## Additional Resources
 
-### Suggested Additional Resources
-
-* [JavaScript: The Good Parts](http://www.amazon.com/gp/product/0596517742/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0596517742&linkCode=as2&tag=wha07-20) - This book doesn't teach JavaScript. It teaches you what not to do with JavaScript.
-* [JavaScript Patterns](http://www.amazon.com/gp/product/0596806752/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0596806752&linkCode=as2&tag=wha07-20) - Understanding JavaScript's patterns is often difficult. Having a mastery of these will help greatly in this class. This also covers patterns that are undesirable, but which you may find yourself doing. It also further highlights best practices and pitfalls to avoid. 
+* [JavaScript: The Good Parts](http://www.amazon.com/gp/product/0596517742/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0596517742&linkCode=as2&tag=wha07-20) &ndash; Teaches JavaScript by teaching what *not* to do with it.
+* [JavaScript Patterns](http://www.amazon.com/gp/product/0596806752/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0596806752&linkCode=as2&tag=wha07-20) &ndash; Understanding JavaScript's patterns is often difficult. Having a mastery of these will help greatly in this class. This includes patterns that are undesirable, but which you may find yourself doing. It also further highlights best practices and pitfalls to avoid.
