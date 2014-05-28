@@ -4,7 +4,7 @@ function numberGuess(){
   }
   var correct_num = randomNumber(1,10);
   var chances = 3;
-  var guess = nil;
+  var guess;
   alert(correct_num);
   while(guess !== correct_num && chances > 0){
     guess = prompt("Guess a number between 1 and 10");
@@ -16,8 +16,8 @@ function numberGuess(){
       alert('too high, guess again');
     }
     chances -= 1;
-
   }
+  alert('You are out of guess, the correct number was ' + correct_num);
 }
 
 numberGuess();
