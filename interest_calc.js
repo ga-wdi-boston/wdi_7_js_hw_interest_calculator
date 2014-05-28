@@ -6,4 +6,4 @@ var calculateInterest = (function(principal, rate, years) {
   return principal * (rate * 0.01) * years;
 });
 
-console.log(calculateInterest(amount_borrowed, interest_rate, num_years));
+console.log('Calculated Interest on $' + amount_borrowed + ' at ' + interest_rate + '% for ' + num_years + ' years: $' + calculateInterest(amount_borrowed, interest_rate, num_years));
