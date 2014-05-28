@@ -3,13 +3,17 @@ var random_number = Math.floor((Math.random() * 10) + 1),
     guess_count = 1;
 
 while (guess != random_number) {
-  if (guess - random_number > 0) {
+  if (guess - random_number > 0 && guess_count < 3) {
     guess = prompt("guess lower");
     guess_count++;
   }
-  else {
+  else if (guess_count < 3){
     guess = prompt("guess higher");
     guess_count++;
+  }
+  else {
+    alert("you took too many guesses! it was " + random_number);
+    return;
   }
 }
 
