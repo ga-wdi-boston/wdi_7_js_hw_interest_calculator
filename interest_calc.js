@@ -1,5 +1,6 @@
 console.log("Hello from interest_calc");
 // find the parameters for interest calculation
+
 var total_borrowed = prompt("How much $$ are you borrowing"),
     interest_rate = prompt("What is the current rate?"),
     loan_maturity = prompt("What is the term length (in years)?");
@@ -17,5 +18,6 @@ function totalInterest(total_borrowed, interest_rate, loan_maturity) {
 }
 
 alert("Total interest paid is " + totalInterest(total_borrowed, interest_rate, loan_maturity) + " dollars!");
+
 
 
