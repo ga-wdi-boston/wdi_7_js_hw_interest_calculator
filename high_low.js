@@ -17,7 +17,7 @@ function numberGuess(){
       alert('Out of range! try a number less than 10');
       chances += 1;
     } else if(guess > correct_num) {
-      alert('too high, guess again');
+      alert('too high, guess again!');
     }
     chances -= 1;
     console.log(chances);
