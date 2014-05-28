@@ -2,7 +2,7 @@
 
 This assignment consists of two distinct tasks:
 
-1. Write a simple interest calculator for loans. Ask the user for the amount borrowed, interest rate, and number of years, and output the amount of interest that will be paid.
+1. Write a [simple interest calculator](http://www.wikihow.com/Calculate-Simple-Interest) for loans. Ask the user for the amount borrowed, interest rate, and number of years, and output the amount of interest that will be paid.
 
 2. Write a JavaScript version of the [Guess the Number](https://github.com/ga-wdi-boston/wdi_1_ruby_hw_number_guess) game from Week 1. As before, the user should get three chances to guess a randomly-generated number between 1 and 10, getting a high/low hint if they guess incorrectly.
 
