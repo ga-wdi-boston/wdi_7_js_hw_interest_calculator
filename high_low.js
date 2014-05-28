@@ -5,7 +5,7 @@ var randomNumber = Math.ceil(Math.random()*10);
 
 var guesses = 3;
 
-console.log(randomNumber);
+//console.log(randomNumber);
 
 var guess = -1;
 
