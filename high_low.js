@@ -1,4 +1,5 @@
 // generates a number 1 - 10 to the lowest int
+var play = (function() {
 var random_number = Math.floor((Math.random() * 10) + 1),
     guess = prompt("Make an integer guess 1-10"),
     guess_count = 1;
@@ -20,5 +21,11 @@ while (guess != random_number) {
   }
 }
 alert("you got it in " + guess_count + " tries, the number was " + random_number);
+});
 
+play();
 
+var play_again = confirm("play again?");
+if (play_again){
+  play();
+}
