@@ -24,8 +24,11 @@ var play = (function() {
         play();
       }
     }
+    else if(user_guess > the_number) {
+      alert('Sorry the number is not ' + user_guess + '! Try a lower number!');
+    }
     else {
-      alert('Sorry the number is not ' + user_guess + '! Try again!');
+      alert('Sorry the number is not ' + user_guess + '! Try a higher number!');
     }
   }
 });
