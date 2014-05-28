@@ -9,11 +9,11 @@ function totalInterest(total_borrowed, interest_rate, loan_maturity) {
   return annual_principle_decrement;
 }
 
-
+console.log(totalInterest(total_borrowed, interest_rate, loan_maturity));
 
 
 //alert("You will pay " + total_interest + ".");
-
+/*
 var factorial = (
   function(x) {
     if(x <= 1) {
@@ -24,3 +24,4 @@ var factorial = (
     }
   }
 );
+*/
