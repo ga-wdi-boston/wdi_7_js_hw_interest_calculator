@@ -24,7 +24,7 @@ function numberGuess(){
   }
   if(guess != correct_num){
     alert('You are out of guesses, the correct number was ' + correct_num);
-  } else if(guess == correct_num) {
+  } else{
     alert('You win!');
   }
 }
