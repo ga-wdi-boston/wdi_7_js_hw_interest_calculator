@@ -9,7 +9,7 @@ function totalInterest(total_borrowed, interest_rate, loan_maturity) {
   return annual_principle_decrement;
 }
 
-console.log(totalInterest(total_borrowed, interest_rate, loan_maturity));
+alert("Total interest paid is " + totalInterest(total_borrowed, interest_rate, loan_maturity) + " dollars!");
 
 
 //alert("You will pay " + total_interest + ".");
